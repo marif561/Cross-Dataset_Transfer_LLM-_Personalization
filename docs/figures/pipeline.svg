@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 300" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#57606a"/>
+    </marker>
+    <style>
+      .t{font-size:14px;font-weight:600;fill:#1f2328;text-anchor:middle}
+      .s{font-size:11.5px;fill:#57606a;text-anchor:middle}
+      .ln{stroke:#57606a;stroke-width:1.6;fill:none;marker-end:url(#a)}
+    </style>
+  </defs>
+  <rect width="960" height="300" fill="#ffffff"/>
+  <text x="480" y="28" font-size="18" font-weight="700" fill="#1f2328" text-anchor="middle">USERPRINT · from clusters to characters</text>
+
+  <rect x="10" y="60" width="140" height="84" rx="10" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1.5"/>
+  <text class="t" x="80" y="88">LMSYS</text>
+  <text class="t" x="80" y="106">Chatbot Arena</text>
+  <text class="s" x="80" y="128">user utterances</text>
+
+  <rect x="170" y="60" width="150" height="84" rx="10" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1.5"/>
+  <text class="t" x="245" y="88">Select top 25%</text>
+  <text class="s" x="245" y="110">lexical variation</text>
+  <text class="s" x="245" y="126">information seeking</text>
+
+  <rect x="340" y="60" width="170" height="84" rx="10" fill="#ddf4ff" stroke="#54aeff" stroke-width="1.5"/>
+  <text class="t" x="425" y="88">Cluster</text>
+  <text class="s" x="425" y="110">Sentence-BERT → UMAP</text>
+  <text class="s" x="425" y="126">→ HDBSCAN</text>
+
+  <rect x="530" y="60" width="160" height="84" rx="10" fill="#fff8c5" stroke="#d4a72c" stroke-width="1.5"/>
+  <text class="t" x="610" y="88">Persona profiles</text>
+  <text class="s" x="610" y="110">topics · intents</text>
+  <text class="s" x="610" y="126">tone · summary</text>
+
+  <rect x="10" y="190" width="200" height="84" rx="10" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1.5"/>
+  <text class="t" x="110" y="218">PersonaChat</text>
+  <text class="s" x="110" y="240">300 dialogues</text>
+  <text class="s" x="110" y="256">(cross-dataset transfer)</text>
+
+  <rect x="250" y="190" width="240" height="84" rx="10" fill="#dafbe1" stroke="#4ac26b" stroke-width="1.5"/>
+  <text class="t" x="370" y="216">Black-box LLMs · 3 conditions</text>
+  <text class="s" x="370" y="238">chat · persona · persona+chat</text>
+  <text class="s" x="370" y="254">DeepSeek-R1 · Gemma3 · Llama 4 · Qwen · GPT-4 …</text>
+
+  <rect x="530" y="190" width="200" height="84" rx="10" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1.5"/>
+  <text class="t" x="630" y="216">Automatic metrics</text>
+  <text class="s" x="630" y="238">ROUGE-L · BERTScore</text>
+  <text class="s" x="630" y="254">gains Δ · bonus efficiency</text>
+
+  <rect x="750" y="190" width="200" height="84" rx="10" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1.5"/>
+  <text class="t" x="850" y="216">LLM-as-a-judge</text>
+  <text class="s" x="850" y="238">pairwise win / tie / loss</text>
+  <text class="s" x="850" y="254">DeepSeek-R1 · Qwen3 · Gemma3</text>
+
+  <path class="ln" d="M150,102 H167"/>
+  <path class="ln" d="M320,102 H337"/>
+  <path class="ln" d="M510,102 H527"/>
+  <path class="ln" d="M610,144 C610,170 420,165 400,187"/>
+  <path class="ln" d="M210,232 H247"/>
+  <path class="ln" d="M490,232 H527"/>
+  <path class="ln" d="M730,232 H747"/>
+  <text x="820" y="96" font-size="12.5" fill="#0969da" font-weight="600" text-anchor="middle">no fine-tuning</text>
+  <text x="820" y="114" font-size="12.5" fill="#0969da" font-weight="600" text-anchor="middle">no model access</text>
+  <text x="820" y="132" font-size="12.5" fill="#0969da" font-weight="600" text-anchor="middle">no user metadata</text>
+</svg>

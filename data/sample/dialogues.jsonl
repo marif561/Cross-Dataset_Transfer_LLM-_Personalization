@@ -1,0 +1,6 @@
+{"id": "d1", "history": ["hi! i just got back from a long run.", "nice, how far did you go?", "about ten kilometres, my legs are tired. any tips for recovery?"], "reference": "stretch, drink plenty of water and get some sleep tonight."}
+{"id": "d2", "history": ["hello, i am learning to code in python.", "that is great, what are you building?", "a small web app, but my tests keep failing."], "reference": "check your fixtures first, that is usually where flask tests break."}
+{"id": "d3", "history": ["hey, i am planning a trip to japan.", "fun! when are you going?", "maybe in spring, is that a good time?"], "reference": "spring is lovely for cherry blossoms but book hotels early."}
+{"id": "d4", "history": ["i try to eat healthy but i get hungry by ten.", "what do you eat for breakfast?", "usually just coffee and toast."], "reference": "add some protein like eggs or yogurt so you stay full longer."}
+{"id": "d5", "history": ["my docker container cannot reach my database.", "is the database on your laptop?", "yes, on localhost."], "reference": "inside docker localhost is the container itself, use host.docker.internal."}
+{"id": "d6", "history": ["i want a cheap weekend away in europe.", "do you like cities or beaches?", "cities, with good food."], "reference": "lisbon or porto are affordable and have amazing food."}

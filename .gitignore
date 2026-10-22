@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+outputs/
+.env
+.DS_Store
+
+# Large public datasets are downloaded separately
+data/*.jsonl
+data/*.json

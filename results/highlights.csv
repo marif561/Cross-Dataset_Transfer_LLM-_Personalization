@@ -1,0 +1,7 @@
+finding,value
+Best BERTScore bonus efficiency (DeepSeek-R1),0.106
+Best ROUGE-L bonus efficiency (Gemma3),2.06
+BERTScore vs ROUGE-L correlation across responses (r),0.88
+PersonaChat dialogues per model and condition,300
+Persona-conditioned responses generated,"more than 5,000"
+Released interaction dataset,"5,777 interactions"

@@ -1,0 +1,10 @@
+judge,condition,leaders,remark
+DeepSeek-R1,chat-only,"Qwen3-latest, GPT4",Strong chat responsiveness; DS competitive overall
+DeepSeek-R1,persona-only,"GPT4, Qwen3-latest",Persona prompts favour frontier instruction tuning
+DeepSeek-R1,persona+chat,"Qwen3-latest, GPT4",Dual context most decisive; DS solid but second tier
+Qwen3-latest,chat-only,"Qwen3-latest, DeepSeek-R1",Qwen family dominant in chat-grounding
+Qwen3-latest,persona-only,"GPT4, Qwen3-latest",GPT4 excels at persona-only alignment
+Qwen3-latest,persona+chat,"Qwen3-latest, GPT4",Hybrid context favours Qwen3-latest consistently
+Gemma3,chat-only,"Qwen3-latest, GPT4",Similar ranking to other judges
+Gemma3,persona-only,"Qwen3-latest, GPT4",Stable preference for persona coherence
+Gemma3,persona+chat,"Qwen3-latest, DeepSeek-R1",Gemma shows balanced view; Qwen still leads

@@ -1,0 +1,49 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "USERPRINT: Cross-Dataset Transfer in LLM Personalization"
+repository-code: "https://github.com/marif561/Cross-Dataset_Transfer_LLM-_Personalization"
+license: MIT
+authors:
+  - family-names: Abiola
+    given-names: T. O.
+  - family-names: Arif
+    given-names: Muhammad
+  - family-names: Abiola
+    given-names: O. J.
+  - family-names: Oredeko
+    given-names: O. B.
+  - family-names: Tewodros
+    given-names: A. B.
+  - family-names: Ojo
+    given-names: O. E.
+  - family-names: Maldonado-Sifuentes
+    given-names: C. E.
+  - family-names: Calvo
+    given-names: H.
+keywords: [LLM personalization, persona clustering, user modeling, zero-shot adaptation, cross-dataset transfer, LLM-as-a-judge]
+preferred-citation:
+  type: article
+  title: "From Clusters to Characters: USERPRINT for Cross-Dataset Transfer in LLM Personalization"
+  journal: "Procedia Computer Science"
+  volume: 275
+  start: 410
+  end: 419
+  year: 2026
+  url: "https://www.sciencedirect.com/science/article/pii/S1877050926000505"
+  authors:
+    - family-names: Abiola
+      given-names: T. O.
+    - family-names: Arif
+      given-names: Muhammad
+    - family-names: Abiola
+      given-names: O. J.
+    - family-names: Oredeko
+      given-names: O. B.
+    - family-names: Tewodros
+      given-names: A. B.
+    - family-names: Ojo
+      given-names: O. E.
+    - family-names: Maldonado-Sifuentes
+      given-names: C. E.
+    - family-names: Calvo
+      given-names: H.

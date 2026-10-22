@@ -1,0 +1,7 @@
+model,bertscore_chat,bertscore_persona,bertscore_persona_chat,rougeL_chat,rougeL_persona,rougeL_persona_chat
+DeepSeek-R1,0.854,0.866,0.853,0.198,0.177,0.199
+Gemma3,0.839,0.850,0.839,0.167,0.169,0.170
+llama4-400b,0.832,0.843,0.832,0.140,0.145,0.144
+mistral-latest,0.816,0.830,0.816,0.108,0.113,0.110
+qwen2.5-latest,0.816,0.807,0.816,0.104,0.089,0.105
+Qwen3,0.822,0.819,0.822,0.121,0.116,0.124
